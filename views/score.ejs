@@ -1,0 +1,22 @@
+<%- include("partials/header"); -%>
+
+<div class="main-div error-div">
+
+  <form action="/score" method="post">
+
+    <h1>CONGRATULATION YOU COMPLETED THE QUIZ</h1>
+    <h2>YOU ATTEMPTED : <%= questions %></h2>
+    <h2>YOUR SCORE IS : <%= score %></h2>
+    <h2>CORRECT ANSWER : <%= correct %></h2>
+    <h2>WRONG ANSWER : <%= wrong %></h2>
+
+    <button style="margin-top: 50px; margin-bottom:25px;" type="submit" name="errorSubmit">SUBMIT</button>
+
+    <p>YOUR RESULT HAS BEEN SEND ON YOUR EMAIL : <%= email %></p>
+
+  </form>
+
+</div>
+
+</body>
+</html>

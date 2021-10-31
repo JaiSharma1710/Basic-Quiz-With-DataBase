@@ -1,0 +1,36 @@
+
+<%- include("partials/header"); -%>
+
+
+<div class="main-div compose-div">
+
+    <form action="/compose" method="post" class="composeForm">
+
+        <label for="question">ENTER THE QUESTION :</label><br>
+        <input type="text" name="question" autocomplete="off"><br><br>
+
+        <label for="optionA">ENTER OPTION A :</label><br>
+        <input type="text" name="optionA" autocomplete="off"><br><br>
+
+        <label for="optionB">ENTER OPTION B :</label><br>
+        <input type="text" name="optionB" autocomplete="off"><br><br>
+
+        <label for="optionC">ENTER OPTION C :</label><br>
+        <input type="text" name="optionC" autocomplete="off"><br><br>
+
+        <label for="optionD">ENTER OPTION D :</label><br>
+        <input type="text" name="optionD" autocomplete="off"><br><br>
+
+        <label for="answer">ENTER THE CORRECT ANSWER :</label><br>
+        <input type="text" name="answer" autocomplete="off"><br><br>
+
+        <button class="btn" type="submit" name="button" value = "addMore"style = "margin-right:1rem;">ADD MORE</button>
+        <button class="btn" type="submit" name="button" value="finish">FINISH</button>
+
+
+    </form>
+
+</div>
+
+
+<%- include("partials/footer"); -%>

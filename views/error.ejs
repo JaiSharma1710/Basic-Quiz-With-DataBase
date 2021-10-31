@@ -1,0 +1,14 @@
+<%- include("partials/header"); -%>
+
+<div class="main-div error-div">
+
+    <form action="/error" method="post">
+
+        <h1><%= message %></h1>
+        <button type="submit" name="errorSubmit">SUBMIT</button>
+
+    </form>
+
+</div>
+
+<%- include("partials/footer"); -%>

@@ -1,0 +1,133 @@
+body {
+  background-color: #F3F1F5;
+  font-weight: bold;
+}
+
+.logIn {
+  border-style: groove;
+  margin: auto;
+  margin-top: 10rem;
+  background-color: white;
+  width: 30rem;
+  height: 35rem;
+  border-radius: 5rem;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+}
+
+.logIn h1 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.logIn input {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 15rem;
+  height: 2rem;
+  margin-left: 1rem;
+}
+
+.logIn button {
+  margin-top: 3rem;
+  width: 10rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  background-color: #FFF9B6;
+  font-weight: bold;
+}
+
+.main-div {
+  border-style: groove;
+  margin: auto;
+  margin-top: 1rem;
+  background-color: white;
+  width: 100rem;
+  height: 35rem;
+  border-radius: 5rem;
+  padding-left: 5rem;
+  font-family: 'Nunito', sans-serif;
+}
+
+.btn {
+  margin-top: 5rem;
+  width: 5rem;
+  height: 2rem
+}
+
+.options {
+  margin-top: 2rem;
+}
+
+.error-div {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.error-div button {
+  width: 20rem;
+  height: 5rem;
+  margin-top: 10rem;
+  border-radius: 1rem;
+  background-color: #FFF9B6;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.top-div {
+  margin-top: 1rem;
+  width: 20rem;
+  height: 8rem;
+  margin-left: 8rem;
+  font-family: 'Nunito', sans-serif;
+}
+
+.compose-div {
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  height: 50rem;
+}
+
+.composeForm{
+  margin-top: 5rem;
+}
+
+.composeForm input{
+  width: 70rem;
+  height: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.composeForm button{
+  width: 10rem;
+  height: 3rem;
+  background-color:  #FFF9B6;
+  border-radius: 1rem;
+  margin-top: 0.5rem;
+}
+
+.score-div{
+
+  width: 102rem;
+  margin: auto;
+}
+
+.scoreDivs{
+  border: 0.5px solid;
+  display: inline-block;
+  height: 8rem;
+width: 20rem;
+margin: 0;
+text-align: center;
+background-color: #FBFBFB;
+}
+
+footer{
+  /* display: inline-block;
+  position: relative;
+  top: 1rem;
+ left: 46.5rem; */
+ margin-top: 1.5rem;
+ text-align: center;
+}
